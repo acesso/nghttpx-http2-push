@@ -1,0 +1,6 @@
+IP=$1
+PORT=$2
+KEY=$3
+CERT=$4
+THREADS=8
+./.libs/asio-sv $IP $PORT $THREADS $KEY $CERT

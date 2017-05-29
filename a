@@ -1,0 +1,1 @@
+./configure --prefix=/ --enable-asio-lib --with-boost --enable-examples CXXFLAGS=-frecord-gcc-switches OPENSSL_LIBS=-L/opt/lib -lcrypto -ldl -lz LIBEVENT_OPENSSL_LIBS=-L/opt/lib -levent_openssl -lcrypto -levent -lrt LIBS=-lboost_iostreams -lboost_random

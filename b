@@ -1,0 +1,1 @@
+./configure --libdir="/opt/lib" OPENSSL_LIBS="-L/opt/lib -lssl -lcrypto -ldl -lz" LIBEVENT_OPENSSL_LIBS="-L/opt/lib -levent_openssl -lssl -lcrypto -levent -lrt" LIBS="-L/opt/lib -lboost_iostreams -lboost_random" --prefix=/ --enable-asio-lib --with-boost --enable-examples CXXFLAGS=-frecord-gcc-switches

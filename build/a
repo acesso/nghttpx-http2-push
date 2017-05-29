@@ -1,0 +1,1 @@
+g++ -v -o asio-sv -g -std=c++11 -I../src/includes -I../lib/includes -lnghttp2_asio -lboost_system -lssl -lcrypto asio-sv.cc

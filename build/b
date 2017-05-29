@@ -1,0 +1,1 @@
+g++ -I .  -I ..  -I ../lib/includes  -I ../src/includes  -I ../third-party  -I /usr/include -D_GNU_SOURCE  -D_REENTRANT  -D HAVE_CONFIG_H  asio-sv.cc -march=x86-64  -std=c++11 -frecord-gcc-switches
